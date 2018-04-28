@@ -15,10 +15,10 @@ var foiAfundado = false;
 //implementação do ciclo até o navio ser afundado
 while (foiAfundado == false) {
 
-   jogada = prompt("Podes jogar - Escolhe um numero entre 1 e 7:");
+   jogada = prompt("Podes jogar - Escolhe um numero entre 1 e 30:");
 
    //definição das hipóteses de jogo
-   if (jogada < 1 || jogada > 7) {
+   if (jogada < 1 || jogada > 30) {
 
 		alert("Jogada inválida. Tenta de novo!");
 
